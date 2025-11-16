@@ -87,7 +87,7 @@ export function Sidebar({ isOpen, onToggle }: SidebarProps) {
                 {user?.photoURL ? (
                   <img
                     src={user.photoURL}
-                    alt={user.displayName || user.email}
+                    alt={user.displayName || user.email || ''}
                     className="w-10 h-10 rounded-full object-cover"
                   />
                 ) : (
