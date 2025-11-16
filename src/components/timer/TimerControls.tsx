@@ -2,6 +2,7 @@
 
 import { useTimer } from '@/hooks/useTimer';
 import { Button } from '@/components/ui/Button';
+import { cn } from '@/lib/utils';
 import { Play, Pause, RotateCcw, SkipForward } from 'lucide-react';
 
 export function TimerControls() {
