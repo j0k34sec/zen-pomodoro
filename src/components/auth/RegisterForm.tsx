@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
-import { zodResolver } from '@hookform/resolvers/zod';
+import { zodResolver } from '@hookform/resolvers';
 import { z } from 'zod';
 import { Eye, EyeOff, Mail, Lock, User, Chrome, Github, CheckCircle, XCircle } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
