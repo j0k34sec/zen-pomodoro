@@ -13,6 +13,7 @@
     "@firebase/firestore": "^4.9.2",
     "@firebase/functions": "^0.13.1",
     "@firebase/storage": "^0.14.0",
+    "@hookform/resolvers": "^5.2.2",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
     "firebase": "^12.6.0",
